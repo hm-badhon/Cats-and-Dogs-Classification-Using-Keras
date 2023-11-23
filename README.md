@@ -19,7 +19,7 @@ pip install tensorflow keras numpy matplotlib
 ## Dataset
 The dataset used for this project is not included in the repository due to its size. You can download the dataset from Kaggle's Dogs vs. Cats competition. After downloading, extract the contents and organize the files into the data directory in the following structure:
 
-# Directory Structure
+## Directory Structure
 
 The dataset used for this project should be organized into the following directory structure:
 
@@ -43,9 +43,7 @@ data/
 |   |-- dog.0.jpg
 |   |-- dog.1.jpg
 |   |-- ...
-
-
-
+```
 ## Usage
 Data Preprocessing: Run the data_preprocessing.ipynb notebook to prepare the dataset for training.
 
@@ -73,6 +71,12 @@ The model achieves a certain accuracy on the validation set after training. The 
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author
+![hmb_pp](https://github.com/hm-badhon/B-AI-Robotics/assets/85755347/093d31f3-966a-4c6c-8ce6-fd26716b83d9)
+
+- **H.M. Mehedi Hasan (Badhon)**
+  - *Associate Robotics Engineer at Next Solution Lab (NSL)*
 
 ## Acknowledgments
 The dataset used in this project is from Kaggle's Dogs vs. Cats competition.
