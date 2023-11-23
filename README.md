@@ -21,25 +21,25 @@ The dataset used for this project is not included in the repository due to its s
 
 plaintext
 Copy code
-data/
-|-- train/
-|   |-- cat.0.jpg
-|   |-- cat.1.jpg
-|   |-- ...
-|   |-- dog.0.jpg
-|   |-- dog.1.jpg
-|   |-- ...
-|-- test/
-|   |-- 1.jpg
-|   |-- 2.jpg
-|   |-- ...
-|-- validation/
-|   |-- cat.0.jpg
-|   |-- cat.1.jpg
-|   |-- ...
-|   |-- dog.0.jpg
-|   |-- dog.1.jpg
-|   |-- ...
+    data/
+    |-- train/
+    |   |-- cat.0.jpg
+    |   |-- cat.1.jpg
+    |   |-- ...
+    |   |-- dog.0.jpg
+    |   |-- dog.1.jpg
+    |   |-- ...
+    |-- test/
+    |   |-- 1.jpg
+    |   |-- 2.jpg
+    |   |-- ...
+    |-- validation/
+    |   |-- cat.0.jpg
+    |   |-- cat.1.jpg
+    |   |-- ...
+    |   |-- dog.0.jpg
+    |   |-- dog.1.jpg
+    |   |-- ...
 
 ## Usage
 Data Preprocessing: Run the data_preprocessing.ipynb notebook to prepare the dataset for training.
