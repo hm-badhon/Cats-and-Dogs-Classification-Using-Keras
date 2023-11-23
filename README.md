@@ -19,27 +19,32 @@ pip install tensorflow keras numpy matplotlib
 ## Dataset
 The dataset used for this project is not included in the repository due to its size. You can download the dataset from Kaggle's Dogs vs. Cats competition. After downloading, extract the contents and organize the files into the data directory in the following structure:
 
-plaintext
-Copy code
-    data/
-    |-- train/
-    |   |-- cat.0.jpg
-    |   |-- cat.1.jpg
-    |   |-- ...
-    |   |-- dog.0.jpg
-    |   |-- dog.1.jpg
-    |   |-- ...
-    |-- test/
-    |   |-- 1.jpg
-    |   |-- 2.jpg
-    |   |-- ...
-    |-- validation/
-    |   |-- cat.0.jpg
-    |   |-- cat.1.jpg
-    |   |-- ...
-    |   |-- dog.0.jpg
-    |   |-- dog.1.jpg
-    |   |-- ...
+# Directory Structure
+
+The dataset used for this project should be organized into the following directory structure:
+
+```plaintext
+data/
+|-- train/
+|   |-- cat.0.jpg
+|   |-- cat.1.jpg
+|   |-- ...
+|   |-- dog.0.jpg
+|   |-- dog.1.jpg
+|   |-- ...
+|-- test/
+|   |-- 1.jpg
+|   |-- 2.jpg
+|   |-- ...
+|-- validation/
+|   |-- cat.0.jpg
+|   |-- cat.1.jpg
+|   |-- ...
+|   |-- dog.0.jpg
+|   |-- dog.1.jpg
+|   |-- ...
+
+
 
 ## Usage
 Data Preprocessing: Run the data_preprocessing.ipynb notebook to prepare the dataset for training.
